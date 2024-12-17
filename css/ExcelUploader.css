@@ -1,0 +1,33 @@
+input[type="file"] {
+    display: block; /* Ensure it is displayed */
+    opacity: 100;
+    position: absolute;
+    pointer-events: auto !important;
+}
+input[type=file]+label{
+    margin: 0px !important;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #0078d4; /* Blue color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Bold text */
+    border: none; /* No border */
+    font-size: smaller;
+}
+
+.custom-file-upload:hover {
+    background-color: #005a9e; /* Darker blue on hover */
+}
+
+.custom-file-upload:active {
+    background-color: #004578; /* Even darker on active */
+}
+.custom-file-upload svg {
+    margin-right: 8px; /* Space between icon and text */
+    vertical-align: sub; /* Ensure the icon aligns with text */
+}
